@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2831756647812041168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2831756647812041182}
+  - component: {fileID: 2831756647812041169}
+  m_Layer: 0
+  m_Name: TerrainGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2831756647812041182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2831756647812041168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2831756647812041169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2831756647812041168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560b3385cd4f4054093517ad481e37f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 386675001638777219, guid: d84ce94cd3a32544290b107477d533cf, type: 3}
+  Creeper: {fileID: 7776557647340917178, guid: 09c0fe3a4c7630346a522d21fdec6db4, type: 3}
+  DirtBlock: {fileID: 3127609229069820182, guid: 4337750e03866674e8015f549c58ee01,
+    type: 3}
+  StoneBlock: {fileID: 1979706184285515478, guid: c319b6cdf5856a24287871566c166728,
+    type: 3}
+  GrassBlock: {fileID: 3415599337077580148, guid: 3fec7ed0cbafe174d9d08dc9bf9e3a94,
+    type: 3}
+  SnowBlock: {fileID: 2397869875422404329, guid: ffd187daef2608f45a230ece4cd54f63,
+    type: 3}
+  IceBlock: {fileID: 5562808931546436476, guid: c0a3232ee9a59764885b81d730c83920,
+    type: 3}
+  ChunkSize: 16
+  BottomLimit: 0.4
+  MiddleLimit: 0.9
+  MaxAmplitude: 3
+  CreeperCount: 5
